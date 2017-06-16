@@ -12,7 +12,7 @@ namespace ComicBookGallery.Controllers
         public ActionResult Detail()
         {
 
-            var comicBook = new ComicBook();
+            var comicBook = new ComicBook()
             {
                 SeriesTitle = "The Amazing Spider-Man",
                 IssueNumber = 700,
@@ -24,7 +24,7 @@ namespace ComicBookGallery.Controllers
                         new Artist() { Name = "Victor Olazaba", Role = "Inks"},
                         new Artist() { Name = "Edgar Delgado", Role = "Colors"},
                         new Artist() { Name = "Chris Eliopoulos", Role = "Letters"},
-                    };
+                    }
             };
 
 
