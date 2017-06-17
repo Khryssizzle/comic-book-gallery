@@ -108,6 +108,8 @@
     <Content Include="packages.config" />
     <Content Include="Views\Comicbooks\Detail.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Comicbooks\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
